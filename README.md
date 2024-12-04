@@ -1,4 +1,4 @@
-# Custom Final Project: Article Summarizer 
+# Final Project: Article Summarizer 
 
 ## Title: webmin-07-project
 
@@ -31,7 +31,7 @@ python -m pip install requests
 python -m pip install spacy
 python -m pip install spacytextblob 
 python -m pip install matplotlib
-python -m pip install 
+
 ```
 ## Tools and Libraries
  The following tools and Python libraries were used:
@@ -41,7 +41,7 @@ python -m pip install
   4. requests: For fetching web pages.
   5. BeautifulSoup4: For extracting text from HTML.
  
- ## Task Performed
+ ## Key Task 
 
  1. Extraction of Article
  The HTML content of the article was extracted and saved to (garden_betty_no_dig_vegetable_garden.html).
@@ -61,7 +61,7 @@ The polarity scores and number of sentences in both summaries were compared.
 
  5. Visualizations
  Histograms were generated to visualize sentiment score distributions.
- 
+
 ## Export to HTML
 Export Using Jupyter Menu
 more options (...) tap near outline in the home page of Jupyter Notebook and export as HTML.
