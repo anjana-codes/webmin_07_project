@@ -1,25 +1,76 @@
-# Final Project: Article Summarizer
+# Custom Final Project: Article Summarizer 
 
-Complete the tasks in the Python Notebook in this repository.
-Make sure to add and push the pkl or text file of your scraped html (this is specified in the notebook)
+## Title: webmin-07-project
 
-## Rubric
+### Name: Anjana Dhakal, Date:12/04/2024
 
-* (Question 1) Article html stored in separate file that is committed and pushed: 1 pt
-* (Question 2) Polarity score printed with an appropriate label: 1 pt
-* (Question 2) Number of sentences printed: 1 pt
-* (Question 3) Correct (or equivalent in the case of multiple tokens with same frequency) tokens printed: 1 pt
-* (Question 4) Correct (or equivalent in the case of multiple lemmas with same frequency) lemmas printed: 1 pt
-* (Question 5) Histogram shown with appropriate labelling: 1 pt
-* (Question 6) Histogram shown with appropriate labelling: 1 pt
-* (Question 7) Cutoff score seems appropriate given histograms: 2 pts (1/score)
-* (Question 8) Summary contains a shortened version of the article (less than half the number of sentences): 1 pt
-* (Question 8) Summary sentences are in the same order as they appeared in the original article: 1 pt
-* (Question 9) Polarity score printed with an appropriate label: 1 pt
-* (Question 9) Number of sentences printed: 1 pt
-* (Question 10) Summary contains a shortened version of the article (less than half the number of sentences): 1 pt
-* (Question 10) Summary sentences are in the same order as they appeared in the original article: 1 pt
-* (Question 11) Polarity score printed with an appropriate label: 1 pt
-* (Question 11) Number of sentences printed: 1 pt
-* (Question 12) Thoughtful answer based on reported polarity scores: 1 pt
-* (Question 13) Thoughtful answer based on summaries: 1 pt
+### Obejectives:
+
+1. Extract text from the article's HTML.
+2. Perform token-based and lemma-based sentiment analysis.
+3. Generate histograms to visualize sentiment distributions.
+4. Create summaries of the article and compare their polarity scores.
+5. Reflect on the differences between the summaries and their quality.
+
+##  Clone base repository
+1. Create a new repo
+1. Clone YOUR new repo down to your machine.
+
+## Installation
+1. Activate virtual environment
+ ```
+    python -m venv .venv
+    venv\Scripts\activate
+```
+2. Install the required packages: 
+
+```
+python -m pip install beautifulsoup4
+python -m pip install html5lib
+python -m pip install requests
+python -m pip install spacy
+python -m pip install spacytextblob 
+python -m pip install matplotlib
+python -m pip install 
+```
+## Tools and Libraries
+ The following tools and Python libraries were used:
+  1. spaCy: For natural language processing, tokenization, and lemmatization.
+  2. collections: For counting word frequencies.
+  3. matplotlib: For visualizing sentence scores.
+  4. requests: For fetching web pages.
+  5. BeautifulSoup4: For extracting text from HTML.
+ 
+ ## Task Performed
+
+ 1. Extraction of Article
+ The HTML content of the article was extracted and saved to (garden_betty_no_dig_vegetable_garden.html).
+
+ 2. Token based analysis
+ - Sentiment scores were calculated for sentences using token-based polarity.
+ - A histogram visualized the distribution of token-based sentiment scores.
+ - A token-based summary was created using a cutoff score.
+ 
+ 3. Lemma-Based Analysis
+ - Sentiment scores were calculated using lemma-based polarity.
+ - A histogram visualized the distribution of lemma-based sentiment scores.
+ - A lemma-based summary was created using a cutoff score.
+
+ 4. Summary Comparison
+The polarity scores and number of sentences in both summaries were compared.
+
+ 5. Visualizations
+ Histograms were generated to visualize sentiment score distributions.
+ 
+## Export to HTML
+Export Using Jupyter Menu
+more options (...) tap near outline in the home page of Jupyter Notebook and export as HTML.
+
+## Git add and commit
+
+```
+    git add .
+    git commit -m " project completed"
+    git push origin main
+
+```
