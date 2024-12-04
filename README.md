@@ -56,8 +56,8 @@ python -m pip install matplotlib
  - A histogram visualized the distribution of lemma-based sentiment scores.
  - A lemma-based summary was created using a cutoff score.
 
- 4. Summary Comparison
-The polarity scores and number of sentences in both summaries were compared.
+ 4. Summary Comparison: 
+   The polarity scores and number of sentences in both summaries were compared.
 
  5. Visualizations
  Histograms were generated to visualize sentiment score distributions.
