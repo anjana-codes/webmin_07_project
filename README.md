@@ -44,7 +44,7 @@ python -m pip install matplotlib
  ## Key Task 
 
  1. Extraction of Article
- The HTML content of the article was extracted and saved to (garden_betty_no_dig_vegetable_garden.html).
+ The HTML content of the article was extracted and saved to (article.html).
 
  2. Token based analysis
  - Sentiment scores were calculated for sentences using token-based polarity.
